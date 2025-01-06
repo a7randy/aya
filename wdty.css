@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Katibeh&family=Noto+Sans+Arabic:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#yakam {
+    background-color: rgb(11, 5, 10);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.btn {
+    padding: 0.5em 1.5em;
+    font-size: 0.9em;
+    font-weight: bold;
+    border-radius: 15px;
+    color: #fff6fb;
+    text-shadow: -2px 2px 5px #fd3084;
+    background-color: transparent;
+    border: 2px solid #feb1de;
+    box-shadow:
+        0 0 0px 1px #f11271,
+        0 0 10px 2px #fd3084,
+        inset 0 0 0px 1px #f11271,
+        inset 0 0 10px 2px #fd3084;
+    transition: 100ms;
+    cursor: pointer;
+    font-family: "Noto Sans Arabic", serif;
+    color: #f3c3d7;
+}
+
+#dwam {
+    background-color: #FFB6C1;
+    display: flex;
+   
+    flex-direction: column;
+    padding: 10px;
+    border: #914062 dotted 3px;
+}
+
+#top, #botom {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#kek, #balon {
+    width: 30px;
+   
+}
+
+#left, #right {
+    width: 25px;;
+    height: 40%;
+    margin-top: 15px;
+}
+
+#row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+#midle {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: start;
+    width: 100%;
+}
+
+#bas {
+    color:#914062;
+    font-family: "Noto Sans Arabic", serif;
+    font-size: 16px;
+    text-align: center;
+    margin-left:11px;
+}
+
+#midle h2 {
+    color: #914062;
+    font-family: "Noto Sans Arabic", serif;
+    margin-top: 10px;
+    margin-left: 9%;
+    font-size: larger;
+}
+
+#to {
+    margin-top:70px;
+    margin-left: 7px;
+    color: #914062;
+    font-family: "Noto Sans Arabic", serif;
+    font-size: 13px;
+}
+
